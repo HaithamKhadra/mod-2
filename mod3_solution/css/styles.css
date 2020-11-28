@@ -1,1 +1,141 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1;
+  border-bottom-color: black;
+  border-bottom-width: thick;
+}
+.container{
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #200; */
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar {
+  margin-bottom: -10px;
+}
+.text-center {
+    font-size: 200%;
+    font-weight: bold;
+}
+.Menu-box {
+    margin: 5px;
+    border: 0;
+   	background-color: #8e8e8e;
+}
+div.row {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+  position: relative;
+  margin-bottom: 0px;
+
+}
+p.title {
+    text-align: center;
+    /* border: 2px solid black; */
+    /* width: 40%; */
+    margin: 0px;
+    /* margin-left: 60%; */
+    color: black;
+    font-size: 150%;
+    position: relative;
+    font-weight: bold;
+}
+p.text-center {
+  padding-top: 25px;
+}
+
+p {
+  padding: 10px;
+  color: black;
+}
+
+.row {
+    width: 100%;
+}
+
+#Chicken #Beef #Sushi {
+  background-color: #8e8e8e;
+}
+
+#collapsable-nav {
+  text-align: center;
+}
+a {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 3px solid #000;
+}
+.navbar-collapse {
+  margin-top: 0px;
+}
+
+@media (max-width: 575px) {
+  .navbar-brand{
+    margin-left: 10px;
+  }
+  .col-sm-12 {
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-brand{
+    margin-left: 20px;
+  }
+  .col-sm-12 {
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+      float: left;
+      width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .col-sm-12 {
+      width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+} */
