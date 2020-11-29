@@ -29,6 +29,7 @@ body {
   color: black;
   font-size: 2em;
   font-weight: bold;
+  text-transform: uppercase;
   /* text-shadow: 1px 1px 1px #200; */
   margin-top: 0;
   margin-left: 0;
